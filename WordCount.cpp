@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
         printf("Error opening file.\n");
-        return 1;
+        return 1;//返回
     }
 
     int count = 0;
